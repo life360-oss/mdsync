@@ -1,13 +1,3 @@
----
-batch:
-  batch_id: batch_1-T_8kHyPdwGzeOiztJ60UIWNoiWkLSfxMnxNpIMQuac
-  batch_title: Test Batch Detection
-  doc_id: 1-T_8kHyPdwGzeOiztJ60UIWNoiWkLSfxMnxNpIMQuac
-  heading_title: Readme
-  url: https://docs.google.com/document/d/1-T_8kHyPdwGzeOiztJ60UIWNoiWkLSfxMnxNpIMQuac/edit
-gdoc_url: https://docs.google.com/document/d/1kokfxD3TqNm1b39Yv-2w3xuRt36XF8cYzI9vySH8idY/edit
----
-
 # mdsync - Google Docs ↔ Markdown Sync Utility
 
 A command-line utility to synchronize content between Google Docs and Markdown files.
@@ -34,7 +24,7 @@ A command-line utility to synchronize content between Google Docs and Markdown f
 The easiest way to install mdsync on macOS:
 
 ```bash
-brew install chasemp/tap/mdsync
+brew install life360/tap/mdsync
 ```
 
 This automatically installs mdsync and all required dependencies.
@@ -45,7 +35,7 @@ This automatically installs mdsync and all required dependencies.
 
 ```bash
 # Clone the repository
-git clone https://github.com/chasemp/mdsync.git
+git clone https://github.com/life360-oss/mdsync.git
 cd mdsync
 
 # Install as a command-line tool
@@ -57,14 +47,14 @@ Now you can use `mdsync` from anywhere!
 #### Alternative: Install from GitHub
 
 ```bash
-pip install git+https://github.com/chasemp/mdsync.git
+pip install git+https://github.com/life360-oss/mdsync.git
 ```
 
 #### Alternative: Run Without Installing
 
 ```bash
 # Clone and install dependencies
-git clone https://github.com/chasemp/mdsync.git
+git clone https://github.com/life360-oss/mdsync.git
 cd mdsync
 pip install -r requirements.txt
 
@@ -76,11 +66,11 @@ See [INSTALL.md](INSTALL.md) for more installation options.
 
 ### Homebrew Tap
 
-mdsync is available through the [chasemp/homebrew-tap](https://github.com/chasemp/homebrew-tap) repository. This tap provides easy installation and updates for mdsync and other tools.
+mdsync is available through the https://github.com/life360-oss/homebrew-tap repository. This tap provides easy installation and updates for mdsync and other tools.
 
 ```bash
 # Install mdsync from the tap
-brew install chasemp/tap/mdsync
+brew install life360-oss/tap/mdsync
 
 # Update mdsync
 brew upgrade mdsync
