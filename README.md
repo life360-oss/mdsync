@@ -24,7 +24,7 @@ A command-line utility to synchronize content between Google Docs and Markdown f
 The easiest way to install mdsync on macOS:
 
 ```bash
-brew install life360/tap/mdsync
+brew install life360-oss/tap/mdsync
 ```
 
 This automatically installs mdsync and all required dependencies.
